@@ -19,11 +19,13 @@ function SubHeader() {
     </p>
   );
 }
-export default function Header() {
+const Header = () => {
   return (
     <div>
       <MainHeader></MainHeader>
       <SubHeader></SubHeader>
     </div>
   );
-}
+};
+
+export default Header;
